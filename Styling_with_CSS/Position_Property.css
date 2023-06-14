@@ -1,0 +1,45 @@
+html
+{
+    font-size: 30px;
+}
+
+#outer-div
+{
+    border: 2px solid black;
+    margin: 20px;
+
+    position: relative;
+}
+
+#div1
+{
+    height: 200px;
+    width: 200px;
+    background-color: #393a7b;
+}
+
+#div2
+{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* position: relative;
+    left: 20px;
+    top: 20px; */
+    /* position: absolute;
+    left: 20px;
+    top: 20px; */
+    /* position: fixed;
+    left: 20px;
+    top: 20px; */
+    position: sticky;
+    left: 20px;
+    top: 20px;
+}
+
+#div3
+{
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+}
