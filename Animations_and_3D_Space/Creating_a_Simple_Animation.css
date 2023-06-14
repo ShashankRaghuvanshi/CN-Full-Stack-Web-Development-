@@ -1,0 +1,35 @@
+/* div
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: aquamarine;
+    transition: 1s ease-in-out; 
+    transition: 1s steps(10,end);
+}
+*/
+/* 
+div:hover 
+{
+    transform: scale(2.0) translate(150px);
+} 
+*/
+
+div
+{
+    height: 200px;
+    width: 200px;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    background-color: aqua;
+    transition: 1s steps(10,end);
+}
+
+div:hover
+{
+    border-radius: 50%;
+    transform: scale(0.5) rotate(360deg) ;
+}
