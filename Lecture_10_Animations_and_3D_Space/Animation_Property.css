@@ -1,0 +1,71 @@
+
+@keyframes changeShape
+{
+    /* from
+    {
+        border-radius: 0%;
+    }
+    to 
+    {
+        border-radius: 50%;
+    } */
+
+    /* from
+    {
+        border-radius: 0%;
+    }
+    25%
+    {
+        border-radius: 12.5%;
+    }
+    50%
+    {
+        border-radius: 25%;
+    }
+    to 
+    {
+        border-radius: 50%;
+    } */
+
+    0%
+    {
+        border-radius: 0%;
+    }
+    25%
+    {
+        border-radius: 12.5%;
+    }
+    50%
+    {
+        border-radius: 25%;
+    }
+    100% 
+    {
+        border-radius: 50%;
+    }
+}
+
+div
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background-color: aqua;
+
+    /* animation: changeShape 1s ease-in-out 2; */
+    /* animation: changeShape 1s ease-in-out infinite; */
+    /* animation: changeShape 1s ease-in-out infinite alternate; */
+
+    /* animation: changeShape 1s linear infinite alternate; */
+    /* animation: changeShape 1s ease-in infinite alternate; */
+    /* animation: changeShape 1s ease-out infinite alternate; */
+
+    animation-name: changeShape;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1.4s;
+    animation-direction: alternate;
+}

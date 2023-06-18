@@ -1,0 +1,33 @@
+#container
+{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border: 2px solid black;
+
+
+    /* background-image:linear-gradient(red,blue) ; */
+    /* background-image: linear-gradient(red, cyan, blue); */
+    /* background-image: linear-gradient(red, blue 40%); */
+    /* background-image: linear-gradient(red , blue 120%); */
+    /* background-image: linear-gradient(red, cyan 50%, blue 120%); */
+
+    /* background-image: linear-gradient(red, cyan 30px, blue); */
+    /* background-image: linear-gradient(red, cyan, blue 200px); */
+
+    /* background-image: linear-gradient(to right, red, cyan, blue); */
+    /* background-image: linear-gradient(to top, red, cyan, blue); */
+    /* background-image: linear-gradient(to top right, red, cyan,blue); */
+
+    /* background-image: linear-gradient(0deg, red, cyan, blue); */
+    /* background-image: linear-gradient(90deg, red, cyan, blue); */
+    /* background-image: linear-gradient(120deg, red, cyan, blue); */
+    /* background-image: linear-gradient(-120deg, red, cyan, blue); */
+
+    /* background: repeating-linear-gradient(red, blue 10px); */
+    /* background: repeating-linear-gradient(to top right, red, blue 10px); */
+
+    background: radial-gradient(red, blue);
+    background: radial-gradient(red, cyan, blue);
+    
+}
