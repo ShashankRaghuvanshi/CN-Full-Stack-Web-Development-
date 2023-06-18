@@ -1,0 +1,56 @@
+#container
+{
+    /* height: 75vh;
+    width: 75vw; */
+    /* height: auto;
+    width: 75vw; */
+    height: 400px;
+    width: auto;
+    background-color: lightgrey;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: row-reverse; */
+}
+
+#container div
+{
+    height: 200px;
+    width: 200px;
+}
+
+#div1
+{
+    background-color: cyan;
+    /* order default value is 0 */
+    /* order: 1;  */
+}
+
+#div2
+{
+    background-color: red;
+    /* order default value is 0 */
+}
+
+#div3
+{
+    background-color: grey;
+    /* order default value is 0 */
+    /* order: 5; */
+}
+
+#div4
+{
+    background-color: brown;
+    /* order default value is 0 */
+    /* order: -1; */
+}
+
+#div5
+{
+    background-color: orange;
+}

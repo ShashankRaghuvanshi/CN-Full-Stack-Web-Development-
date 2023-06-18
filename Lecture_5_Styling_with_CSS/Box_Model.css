@@ -1,0 +1,19 @@
+#div1
+{
+    /* Content box model  */
+    /* height: 200px;
+    width: 200px;
+    background-color: cyan;
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 4px; */
+
+    /* Border Box  */
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 4px;
+    box-sizing: border-box;
+}
